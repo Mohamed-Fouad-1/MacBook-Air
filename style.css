@@ -161,15 +161,15 @@
     background-color: unset;
 }
 .Swift-1__Group{
-    bottom: 1549px;
+    bottom: 1638px;
     width: 0px;
-    left: 490px;
+    left: 472px;
     position: relative;
     background: none;
 }
 .Swift-1__Group img{
     background-color: unset;
-    height: 985px;
+    height: 1111px;
     width: 985px;
 }
 .Swift-1__Group__3{
@@ -187,6 +187,20 @@
         background-color: unset;
         height: 740px;
         width: 640px;
+    }
+}
+@media (max-width: 1024px){
+    .Swift-1{
+        top: 45%;
+    }
+    .Swift-1__Group {
+        bottom: 849px;
+        left: 238px;
+    }
+    .Swift-1__Group img {
+        background-color: unset;
+        height: 530px;
+        width: 500px;
     }
 }
 @media (max-width: 768px){
@@ -230,6 +244,7 @@
     position: relative;
     top: 1548px;
     height: 894px;
+    margin-bottom: 125px;
     padding: 0 120px;
     display: flex;
     justify-content: space-between;
@@ -237,7 +252,7 @@
     color: #ffffff;
 }
 .What-I-do img{
-    height: 368px;
+    width: 368px;
 }
 .Box-Ideas{
     display: flex;
@@ -274,25 +289,121 @@
     height: 66px;
     font-size: 18px;
 }
+
 @media (max-width: 1280px){
     .What-I-do {
         width: 100%;
         position: relative;
-        top: 1145px;
+        top: 927px;
         height: 894px;
-        padding: 0 60px;
+        padding: 0px 22px;
+    }
+    .Box-Ideas {
+        display: flex;
+        width: 730px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .What-I-do img {
+        width: 251px;
+        
     }
 }
-@media (max-width: 768px){
+@media (max-width: 1024px){
     .What-I-do {
         width: 100%;
         position: relative;
         top: 1145px;
         height: 894px;
-        padding: 0 60px;
+        padding: 0 20px;
     }
 }
+@media (max-width: 768px){
+    .What-I-do{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        position: relative;
+        top: 790px;
+        height: 894px;
+        padding: 0 10px;
+        color: #ffffff;
+    }
+    .Box-Ideas {
+        display: flex;
+        width: 575px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .What-I-do__Definitions__Information__text-1 {
+        width: 520px;
+        height: 35px;
+        font-size: 25px;
+        font-weight: bold;
+        margin-bottom: 17px;
+    }
+    .What-I-do__Definitions__Information__text-2{
+        width: 549px;
+        font-size: 16px;
+    }
+    .What-I-do__Definitions__Information__text-3{
+        width: 460px;
+        font-size: 16px;
+    }
+    .Line-2 {
+        width: 10px;
+        height: 90px;
+        background-color: #2EE5D7;
+        margin-top: 120px;
+    }
+    .What-I-do img {
+        width: 170px;
+    }
+}
+@media (max-width: 768px){
+
+}
+
 .Blog{
     position: relative;
     top: 1548px;
+}
+.Blog__Box{
+    width: 369px;
+    height:497px ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 30px;
+    background-color: #002F59;
+}
+.Blog__Box__Notable{
+    position: absolute;
+    background: none;
+    
+}
+.Blog__Box__Notable__Rectangle-1{
+    width: 239px;
+    height:223px ;
+    background: #ffffff;
+    border-radius: 30px;
+    position: relative;
+    z-index: 1;
+}
+.Blog__Box__Notable__Rectangle-2{
+    width: 239px;
+    height:223px ;
+    background: #ffffff;
+    border-radius: 30px;
+    position: relative;
+    bottom: 210px;
+    left: 10px;
+    z-index: 0;
+}
+.Blog__Box__text{
+    color: #ffffff;
+    background:#002F59 ;
+}
+.Blog__Box__text-1{
+    background-color: #002F59;
 }
