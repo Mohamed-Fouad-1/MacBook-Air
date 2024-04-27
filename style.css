@@ -7,8 +7,10 @@
     text-decoration: none;
 }
 body{
-    background: #00182E;
+    background-image: linear-gradient(to top, #00182E 65%, #004343);
+    height:6116px;
 }
+
 .Header{
     width: 100%;
     display: flex;
@@ -363,9 +365,31 @@ body{
     }
 }
 @media (max-width: 768px){
-
+    .What-I-do{
+        padding: 0 20px;
+    }
+    .Box-Ideas {
+        width: 468px;
+        justify-content: space-around;
+    }
+    .What-I-do__Definitions__Information__text-1 {
+        width: 412px;
+        font-size: 21px;
+    }
+    .What-I-do__Definitions__Information__text-2 {
+        width: 435px;
+        font-size: 13px;
+    }
+    .What-I-do__Definitions__Information__text-3 {
+        width: 400px;
+        font-size: 14px;
+    }
 }
-
+@media (max-width: 660px){
+    .What-I-do {
+        padding: 0 8px;
+    }
+}
 .Blog{
     position: relative;
     top: 1548px;
@@ -583,5 +607,387 @@ body{
     }
 }
 @media (max-width: 768px){
-
+    .Blog__Box {
+        width: 242px;
+        height: 568px;
+    }
+    .Blog__Box__Notable__Rectangle-1,
+    .Blog__Box__Notable__Rectangle-2 {
+        width: 193px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text {
+        width: 185px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text-2__text-1 {
+        width: 145px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text-2__text__Ordered {
+        font-size: 10px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text-2__text--12 {
+        font-size: 9px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text-2__text-3 {
+        width: 125px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text-2__text--5 {
+        width: 142px;
+        font-size: 8px;
+        margin-bottom: 8px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text__Line-4__1 {
+        margin: 7px 0 0px 20px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text__Line-4__2{
+        margin-left: 20px;
+    }
+    .Blog__Box__text {
+        width: 240px;
+        align-items: center;
+    }
+    .Blog__Box__text-1 {
+        font-size: 14px;
+    }
+    .Blog__Box__text-2 {
+        font-size: 12px;
+        width: 228px;
+    }
+}
+@media (max-width: 660px){
+    .Blog__Box {
+        width: 204px;
+        height: 568px;
+    }
+    .Blog__Box__Notable__Rectangle-1,
+    .Blog__Box__Notable__Rectangle-2 {
+        width: 168px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Amazon-2__text-2 {
+        width: 97px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Amazon-2__text-2__In {
+        font-size: 9px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Amazon-2__text-2__Amazon {
+        font-size: 9px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Amazon {
+        width: 167px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Amazon-2__text {
+        width: 104px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Amazon-2__text__Order {
+        font-size: 9px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Amazon-2__text--31 {
+        font-size: 8px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text{
+        width: 160px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text-2__text-1 {
+        width: 130px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text-2__text__Ordered {
+        font-size: 9px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text-2__text--12 {
+        font-size: 8px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text__Line-4__1 {
+        margin: 7px 0 0px 14px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text-2__text-3 {
+        width: 106px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text__Line-4__2{
+        margin-left: 14px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text-2__text {
+        width: 70px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text-2__text--5 {
+        width: 125px;
+        font-size: 7px;
+        margin-bottom: 12px;
+    }
+    .Blog__Box__Notable__Rectangle-1__Box__text-2__text-2 {
+        width: 83px;
+    }
+    .Blog__Box__text {
+        align-items: center;
+    }
+    .Blog__Box__text-1 {
+        font-size: 12px;
+    }
+    .Blog__Box__text-2 {
+        font-size: 11px;
+        width: 193px;
+    }
+}
+.The-Prices{
+    position: relative;
+    top: 1660px;
+    height: 661px;
+    color: #ffffff;
+    margin-left: 115px;
+}
+.The-Prices__text p{
+    font-size:35px ;
+    font-weight: bold;
+    margin-bottom:30px ;
+}
+.The-Prices__text-1{
+    display: block;
+    width: 534px;
+    height: 52px;
+    margin-bottom:70px;
+    font-size: 18px;
+    color: #D8D8D8;
+}
+.The-Prices__Box__Rectangles{
+    display: flex;
+}
+.The-Prices__Box__Rectangles__Rectangle-1,
+.The-Prices__Box__Rectangles__Rectangle-2,
+.The-Prices__Box__Rectangles__Rectangle-3{
+    width: 369px;
+    height: 362px;
+    background:#074B8A ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.The-Prices__Box__Rectangles__Rectangle-2{
+    background-color: #408ACD;
+}
+.The-Prices__Box__Rectangles__Rectangle-1__text-1{
+    display: block;
+    width: 203px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+}
+.The-Prices__Box__Rectangles__Rectangle-1__text-2,
+.The-Prices__Box__Rectangles__Rectangle-1__text-3{
+    width: 277px;
+    height: 50px;
+    font-size: 35px;
+    font-family: "roboto", sans-serif;
+    font-weight: bold;
+    display: flex;
+}
+.The-Prices__Box__Rectangles__Rectangle-1__text-2__style{
+    color: #ffffff52;
+    margin-top: 4px;
+}
+.The-Prices__Box__Rectangles__Rectangle-1__text-2__style-2{
+    margin: 4px 0 0px 12px;
+}
+.The-Prices__Box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 520px;
+}
+.The-Prices__Box__Rectangles__Rectangle-1{
+    position: relative;
+    left: 38px;
+    z-index: -1;
+}
+.The-Prices__Box__Rectangles__Rectangle-3{
+    position: relative;
+    right: 38px;
+    z-index: -1;
+}
+.The-Prices__Box__Rectangles__Rectangle-1__text-1 ,
+.The-Prices__Box__Rectangles__Rectangle-1__text-2,
+.The-Prices__Box__Rectangles__Rectangle-1__text-3{
+    margin-left: 75px;
+}
+.The-Prices__Box__Button{
+    font-size: 16px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 2px;
+    padding: 8px 18px;
+    transition: 0.2s;
+    border-radius: 30px;
+    background: none;
+    cursor: pointer;
+    border-color: #18B7C3;
+}
+@media (max-width:1280px ) {
+    .The-Prices {
+        position: relative;
+        top: 970px;
+        margin-left: 40px;
+    }    
+}
+@media (max-width:1024px ){
+    .The-Prices__Box__Rectangles {
+        width: 1024px;
+        right: 32px;
+        position: relative;
+    }
+    .The-Prices {
+        position: relative;
+        top: 710px;
+        margin-left: 40px;
+    }
+}
+@media (max-width:768px ){
+    .The-Prices {
+        position: relative;
+        top: 710px;
+        margin-left: 0px;
+    }
+    .The-Prices__text{
+        margin-left: 43px;
+        }
+    .The-Prices__Box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 520px;
+        width: 768px;
+    }
+    .The-Prices__Box___Rectangles {
+        width: 706px;
+        right: 29px;
+        position: relative;
+    }
+    .The-Prices__Box__Rectangles__Rectangle-1, 
+    .The-Prices__Box__Rectangles__Rectangle-2, 
+    .The-Prices__Box__Rectangles__Rectangle-3 {
+        width: 251px;
+        height: 362px;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .The-Prices__Box__Rectangles__Rectangle-1___text-1 {
+        display: block;
+        width: 130px;
+        height: 50px;
+        font-size: 27px;
+        font-weight: bold;
+    }
+    .The-Prices__Box__Rectangles__Rectangle-1__text-2 {
+        width: 215px;
+        font-size: 24px;
+    }
+    .The-Prices__Box__Rectangles__Rectangle-1__text-1 {
+        display: block;
+        width: 182px;
+        height: 50px;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .The-Prices__Box__Rectangles__Rectangle-1__text-3 {
+        margin-right: 0px;
+        font-size: 25px;
+    }
+    .The-Prices__Box__Rectangles {
+        width: 690px;
+    }
+}
+@media (max-width: 660px) {
+    .The-Prices__Box {
+        width: 581px;
+    }
+    .The-Prices__Box__Rectangles {
+        width: 531px;
+    }
+    .The-Prices__Box__Rectangles__Rectangle-1,
+    .The-Prices__Box__Rectangles__Rectangle-2,
+    .The-Prices__Box__Rectangles__Rectangle-3 {
+        width: 224px;
+    }
+    .The-Prices__Box__Button {
+        margin-left: 90px;
+    }
+}
+.Main-Block{
+    width: 500px;
+    position: relative;
+    top: 1735px;
+    margin: 100px 0 0px 115px;
+}
+.Main-Block__text{
+    margin-bottom: 150px;
+}
+.Main-Block__text__1{
+    display: block;
+    width: 725px;
+    height: 50px;
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.Main-Block__text__2{
+    display: block;
+    width: 534px;
+    height: 52px;
+    font-size: 18px;
+    color: #D8D8D8;
+}
+@media (max-width:768px) {
+    .Main-Block {
+        width: 500px;
+        top: 795px;
+        margin: 100px 0 0px 40px;
+    }
+}
+@media (max-width:660px){
+    .Main-Block__text__1 {
+        width: 248px;
+    }
+}
+.Design-Castle-AB{
+    position: relative;
+    top: 2460px;
+    color: #CBCBCB;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: 0 60px;
+}
+.Design-Castle-AB__text{
+    height:61px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.Design-Castle-AB span{
+    display: block;
+    width: 301px;
+    height: 20px;
+    font-size: 12px;
+}
+@media (max-width:768px) {
+    .Design-Castle-AB {
+        top: 1655px;
+        padding: 0 29px;
+    }
+    body{
+        height: 5247px;
+    }
+}
+@media (max-width:660px) {
+    .Design-Castle-AB {
+        top: 1655px;
+        padding: 0 29px;
+    }
+    body{
+        height: 5247px;
+    }
 }
